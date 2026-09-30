@@ -1,0 +1,52 @@
+# Data are not distributed with this repository.
+Data/
+Code/replication/exported/
+Code/replication/logs/
+*.csv
+*.tsv
+*.dta
+*.parquet
+*.rds
+*.RDS
+*.rda
+*.xlsx
+*.xls
+*.zip
+*.gz
+
+# Credentials
+.Renviron
+.env
+.mcp.json
+
+# R artifacts
+.RData
+.RData.*
+.Rhistory
+.Rproj.user/
+Rplots.pdf
+
+# Python / Stata
+__pycache__/
+.ipynb_checkpoints/
+*.log
+
+# LaTeX build artifacts
+*.aux
+*.out
+*.toc
+*.bbl
+*.blg
+*.bcf
+*.run.xml
+*.fdb_latexmk
+*.fls
+*.synctex.gz
+*.tex
+
+# Local tooling and OS files
+.claude/
+.vscode/
+.DS_Store
+Thumbs.db
+desktop.ini
